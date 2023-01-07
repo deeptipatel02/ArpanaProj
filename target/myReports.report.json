@@ -1,0 +1,158 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2023-01-07T00:09:28.323Z",
+    "line" : 2,
+    "name" : "Verify Login With valid data",
+    "description" : "",
+    "id" : "login-action;verify-login-with-valid-data",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 10632608200,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "user is on Home page",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 793045300,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user clicks on signin link",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_clicks_on_signin_link()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 19001100,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "Next page is displayed with title",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.next_page_is_displayed_with_title()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 8089462600,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user enters user name and password clicks on Submit button",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_enters_user_name_and_password_clicks_on_submit_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "check user and displays login successful",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.check_user_and_displays_login_successful()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 818046800,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "user logs out application should close",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_logs_out_application_should_close()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1000100,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "home page should be there",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.home_page_should_be_there()"
+      },
+      "keyword" : "But "
+    } ]
+  }, {
+    "start_timestamp" : "2023-01-07T00:09:48.810Z",
+    "line" : 11,
+    "name" : "Verify Login With invalid data",
+    "description" : "",
+    "id" : "login-action;verify-login-with-invalid-data",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4965284000,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "user is on Home page",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 2379136100,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "user clicks on signin link",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_clicks_on_signin_link()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 712040700,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "Next page is displayed with title",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.next_page_is_displayed_with_title()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 15,
+      "name" : "user enters invalid  user name or invalid password click on Submit button",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_enters_invalid_user_name_or_invalid_password_click_on_submit_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1000100,
+        "status" : "passed"
+      },
+      "line" : 16,
+      "name" : "check Error message is displayed",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.check_error_message_is_displayed()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Login Action",
+  "description" : "",
+  "id" : "login-action",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/features/TC001_Login.feature",
+  "tags" : [ ]
+} ]
